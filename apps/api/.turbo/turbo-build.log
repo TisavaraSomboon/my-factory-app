@@ -1,0 +1,9 @@
+
+> api@1.0.0 build
+> ./venv/bin/python manage.py migrate
+
+[1G[0K[36;1mOperations to perform:[0m
+[1m  Apply all migrations: [0madmin, auth, contenttypes, sessions
+[36;1mRunning migrations:[0m
+  No migrations to apply.
+[1G[0K\[1G[0K

@@ -1,0 +1,20 @@
+{
+  "name": "my-factory-app",
+  "private": true,
+  "packageManager": "npm@10.9.9",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "npm --prefix apps/web run dev",
+    "dev:api": "npm --prefix apps/api run dev",
+    "dev": "npm install concurrently --save-dev & concurrently \"npm run dev:web\" \"npm run dev:api\"",
+    "build": "turbo build",
+    "lint": "turbo lint"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.6",
+    "turbo": "^2.0.0"
+  }
+}

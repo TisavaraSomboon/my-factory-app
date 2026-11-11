@@ -1,0 +1,29 @@
+# Python / Django bytecode
+__pycache__/
+*.pyc
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local Database
+db.sqlite3
+db.sqlite3-journal
+
+# Environment / Secret files
+.env
+.env.local
+*.env
+
+# Local uploaded media files
+media/
+media/images/*
+!media/images/.gitkeep
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
