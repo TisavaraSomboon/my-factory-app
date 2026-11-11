@@ -1,6 +1,6 @@
 const OrderList = () => {
     return <div>
-        <span>All order test</span>
+        <span>All order</span>
         <table>
             <td>
                 <tr>id</tr>

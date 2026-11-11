@@ -1,5 +1,6 @@
 # Python / Django bytecode
 __pycache__/
+.pytest_cache/
 *.pyc
 *$py.class
 
@@ -27,3 +28,6 @@ media/images/*
 .vscode/
 .idea/
 .DS_Store
+
+db.sqlite3
+staticfiles/
