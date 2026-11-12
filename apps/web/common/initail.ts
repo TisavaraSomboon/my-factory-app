@@ -1,3 +1,20 @@
+import {Scissors,
+Layers,
+Sparkles,
+Shirt,
+CheckCircle2,
+Truck} from 'lucide-react'
+
+// ข้อมูลจำลองทั้ง 6 ขั้นตอนการผลิตเสื้อผ้า
+export const MANUFACTURING_STEPS = [
+  { id: 1, name: 'Design & Pattern', thName: 'ออกแบบและตัดแพทเทิร์น', icon: Scissors, color: 'bg-pink-100 text-pink-600' },
+  { id: 2, name: 'Fabric Sourcing', thName: 'จัดหาและวัดขนาดผ้า', icon: Layers, color: 'bg-purple-100 text-purple-600' },
+  { id: 3, name: 'Fabric Finishing', thName: 'ย้อมสีและตกแต่งผ้า', icon: Sparkles, color: 'bg-indigo-100 text-indigo-600' },
+  { id: 4, name: 'Garment Assembly', thName: 'ตัดเย็บและประกอบชุด', icon: Shirt, color: 'bg-sky-100 text-sky-600' },
+  { id: 5, name: 'Quality Assurance', thName: 'ตรวจสอบคุณภาพ (QA)', icon: CheckCircle2, color: 'bg-teal-100 text-teal-600' },
+  { id: 6, name: 'Packaging & Delivery', thName: 'แพ็คสินค้าและจัดส่ง', icon: Truck, color: 'bg-emerald-100 text-emerald-600' },
+];
+
 export const INITIAL_ORDERS = [
   {
     id: 'ORD-2026-001',
